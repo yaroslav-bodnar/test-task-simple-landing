@@ -1,0 +1,354 @@
+
+/*======================iNDEX_HEADER==========================*/
+/*============================================================*/
+
+.index_header_top {
+	width: 960px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/*------------------*/
+.header_logo {
+	margin: 20px 80px;
+}
+
+.header_info {
+	margin-right: 200px;
+}
+
+/*-----------------*/
+.header_info_text {
+	display: flex;
+	align-items: center;
+	margin-top: 0px;
+}
+
+.header_info_text_title {
+	font-size: 35px;
+	font-family: myriad-pro,sans-serif;
+	margin-top: 44px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.header_info_text_start-date {
+	width: 149px;
+	height: 31px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border: 1px solid #559de2;
+	padding: 5px 8px;
+	border-radius: 4px;
+	color: #559de2;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+
+/*------------------*/
+.header_info_posts-followers-following {
+	display: flex;
+}
+
+.header_info_posts-followers-following p {
+	font-size: 17px;
+	margin: 10px 29px 20px 0px;
+}
+
+.number-posts{
+	font-weight: 700px;
+}
+
+
+/*------------------*/
+.header_info_date {
+	display: flex;
+	justify-content: center;
+}
+
+.header_info_date p {
+	margin: 6px 0px 34px 0px;
+	font-size: 17px;
+}
+
+.header_info_date_input {
+	position: relative;
+	margin-left: 24px;
+}
+
+
+.header_info_date_input span{
+	position: absolute;
+	right: 0;
+	top: 1px;
+	font-size: 16px;
+	padding: 5px 2px;
+	color: #666666;
+	background: #ebebeb;
+	border: 1px solid #aaa;
+}
+
+
+.icon-cancel-1 {
+	margin: 0px 28px 0px 0px;
+}
+
+
+.icon-calendar {
+	border-radius: 0px 4px 4px 0px;
+}
+
+
+.user-date {
+	width: 183px;
+	height: 31px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+
+.user-date:focus {
+	border-color: #00a69d;
+	box-shadow: 0 0 8px 0 #00a69d;
+}
+
+
+.header_info_date_input .user-date:focus ~ span{
+	color: #fff;
+	background: #00a69d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================INDEX_MAIN==========================*/
+/*==========================================================*/
+.index_main {
+	background: #f4f4f4;
+}
+
+.index_main_foto-gallery {
+	width: 960px;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.foto-gallery_images {
+	position: relative;
+	margin-bottom: 35px;
+	width: 292px;
+	height: 292px;
+}
+
+.foto-gallery_images::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.foto-gallery_images img{
+	position: relative;
+}
+
+.instagrtam-video-logo {
+	top: -288px;
+	left: 245px;
+	z-index: 2;
+}
+
+.foto-gallery_text {
+	position: absolute;
+	top: 160px;
+	left: 20px;
+	color: white;
+	margin-top: 0px;
+	font-size: 17px;
+	z-index: 2;
+}
+
+.icon-heart {
+	margin-left: 58px;
+}
+
+.icon-heart1 {
+	margin-left: 30px;
+}
+
+.icon-comment {
+	margin-left: 22px;
+}
+
+.icon-comment1 {
+	margin-left: 30px;
+}
+
+.icon-googleplay {
+	margin-left: 58px;
+}
+
+.foto-gallery_text_upload {
+	text-align: center;
+}
+
+/*------------------*/
+.foto-gallery_button {
+	text-align: center;
+}
+
+.button {
+	background-color: #fafafa;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------*/
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================MEDIA==========================*/
+/*======================================================*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.index_header_top {
+		width: 720px;
+	}
+
+ 	.header_logo {
+		margin: 20px 40px;
+	}
+
+	.index_main_foto-gallery {
+		width: 720px;
+	}
+
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	.index_header_top {
+		width: 720px;
+	}
+
+ 	.header_logo {
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: -44px;
+	}
+
+	.header_logo img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.index_main_foto-gallery {
+		width: 540px;
+	}
+
+}
+
+
+
+
+
+@media (max-width: 575px) {
+
+	.index_header_top {
+		width: 540px;
+	}
+
+ 	.header_logo {
+		display: none;
+	}
+
+	.header_info_text_title {
+		font-size: 30px;
+	}
+
+	.header_info_date {
+		display: flex;
+		flex-direction: column;
+		margin: 6px 0px 0px 0px;
+	}
+
+	.header_info_date p {
+		margin: 6px 0px 0px 0px;
+	}
+
+	.user-date {
+		width: 183px;
+		height: 31px;
+		margin-top: 10px;
+	}
+
+	.header_info_date_input span{
+		right: 0;
+		top: 1px;
+		padding: 5px 2px;
+	}
+
+
+	.icon-cancel-1 {
+		margin: 10px 207px 0px 0px;
+	}
+
+	.icon-calendar {
+		margin: 10px 179px 0px 0px;
+		border-radius: 0px 4px 4px 0px;
+	}
+
+	.index_main_foto-gallery {
+		width: 540px;
+	}
+}

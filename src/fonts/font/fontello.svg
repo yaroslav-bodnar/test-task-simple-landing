@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="calendar" unicode="&#xe800;" d="M800 700q42 0 71-29t29-71l0-600q0-40-29-70t-71-30l-700 0q-40 0-70 30t-30 70l0 600q0 42 30 71t70 29l46 0 0-100 160 0 0 100 290 0 0-100 160 0 0 100 44 0z m0-700l0 400-700 0 0-400 700 0z m-540 800l0-170-70 0 0 170 70 0z m450 0l0-170-70 0 0 170 70 0z" horiz-adv-x="900" />
+
+<glyph glyph-name="cancel-1" unicode="&#xe801;" d="M654 349l346-346-154-154-346 346-346-346-154 154 346 346-346 346 154 154 346-346 346 346 154-154z" horiz-adv-x="1000" />
+
+<glyph glyph-name="heart" unicode="&#xe802;" d="M775 849q126 0 207-80t81-207v-60q0-285-532-653-531 367-531 653v60q0 127 81 207t206 80q81 0 134-30t110-99q58 68 111 99t133 30z" horiz-adv-x="1063" />
+
+<glyph glyph-name="comment" unicode="&#xe803;" d="M1137 749v-532q0-41-29-70t-71-30h-168v-268l-267 268h-502q-41 0-70 30t-30 70v532q0 41 30 71t70 29h937q41 0 71-29t29-71z" horiz-adv-x="1137" />
+
+<glyph glyph-name="googleplay" unicode="&#xe804;" d="M0-146l0 992 501-496z m0 0l501 496 134-133-202-117-433-250 0 4z m0 992l0 4 433-250 202-117-134-133z m501-496l134 133 231-133-231-133z" horiz-adv-x="866" />
+</font>
+</defs>
+</svg>
